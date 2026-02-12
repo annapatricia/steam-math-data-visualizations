@@ -1,0 +1,33 @@
+﻿# STEAM — Matemática, Dados e Ciências com Gráficos (Python)
+
+Miniportfólio educacional com 4 atividades em notebooks:
+1. Matemática: função constante, 1º e 2º grau (gráficos e interpretação)
+2. Geografia/Dados: demografia por região do Brasil (IBGE ou CSV)
+3. Biologia: crescimento de plantas (gráfico de linha e comparação)
+4. Física: MRU e MRUV (posição, velocidade e aceleração)
+
+## Como executar
+1. Crie o ambiente e instale dependências:
+   - python -m venv .venv
+   - .\.venv\Scripts\Activate.ps1
+   - pip install -r requirements.txt
+
+2. Rode:
+   - jupyter notebook
+
+## Notebooks
+- 
+otebooks/01_matematica_funcoes.ipynb
+- 
+otebooks/02_geografia_demografia_brasil.ipynb
+- 
+otebooks/03_biologia_crescimento.ipynb
+- 
+otebooks/04_fisica_mru_mruv.ipynb
+"@ | Out-File -Encoding utf8 README.md
+@"
+numpy
+pandas
+matplotlib
+requests
+jupyter
