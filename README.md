@@ -40,4 +40,15 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python -m jupyterlab
-   - 
+   -
+
+---
+
+## 3) Subir as imagens + README pro GitHub
+No PowerShell:
+
+```powershell
+git add README.md figures/funcoes.png figures/demografia.png figures/biologia.png
+git commit -m "Add preview images and improve README"
+git push
+
